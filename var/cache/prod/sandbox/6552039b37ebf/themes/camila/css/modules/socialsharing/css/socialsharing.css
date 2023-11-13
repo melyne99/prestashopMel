@@ -1,0 +1,49 @@
+#usefull_link_block.socialsharing_product button {
+  background-color: #000;
+  border: medium none;
+  color: #fff;
+  float: left;
+  height: 100%;
+  line-height: 30px;
+  margin: 0;
+  padding: 0 10px;
+  text-align: center;
+  text-transform: none;
+  width: 100%;
+}
+.socialsharing_product .social-sharing i {
+  float: left;
+  line-height: 30px;
+  margin-right: 5px;
+  color: #fff;
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-facebook:hover {
+  color: white;
+  background-color: #435f9f; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-twitter:hover {
+  color: white;
+  background-color: #00aaf0; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-twitter:hover i {
+    color: white; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-google-plus:hover {
+  color: white;
+  background-color: #e04b34; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-google-plus:hover i {
+    color: white; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-pinterest:hover {
+  color: white;
+  background-color: #ce1f21; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-pinterest:hover i {
+    color: white; 
+}
+@media (max-width: 479px){
+    #usefull_link_block.socialsharing_product button {
+      padding: 0 5px;
+    }
+}

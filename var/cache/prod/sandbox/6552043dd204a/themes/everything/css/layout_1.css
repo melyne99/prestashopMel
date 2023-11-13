@@ -1,0 +1,106 @@
+.ybc-widget-display-home .ybc-widget-description-white > h3 {
+  text-transform: uppercase;
+}
+.ybc-widget-ybc-custom-5 li.ybc-widget-item:nth-child(3) {
+  border-right: medium none;
+}
+.ybc-menu {
+  position: static;
+}
+.columns-container {
+  margin-top: 15px;
+}
+.main-menu {
+  margin-top: 38px;
+}
+.social_header {
+  margin-top: 32px;
+}
+.main-menu.scroll_heading.has_fixed {
+  background-color: #000 !important;
+}
+.main-menu.scroll_heading.has_fixed .ybc-menu > .ybc-menu-item > .ybc-menu-item-link, 
+.main-menu.scroll_heading.has_fixed .ybc-menu > .ybc-menu-item > .ybc-menu-item-no-link {
+  color: #fff;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .ybc_myaccout:hover .dropdown_myaccout {
+      opacity: 1;
+      visibility: visible;
+    }
+    body.ybc-layout-default .header_bottom .custom_block_cart {
+      top: 72px;
+    }
+}
+@media (max-width: 767px){
+    .shop_text_nav {
+      display: none;
+    }
+    .social_header {
+      display: block;
+      float: left;
+      margin-top: 10px;
+      padding: 0;
+    }
+    .social_header ul {
+      text-align: center;
+      margin: 0;
+}
+    .social_header li {
+      display: inline-block;
+      float: none;
+    }
+    .container.homeblog_wrapper {
+      padding: 0;
+    }
+    .center_column {
+      margin-top: 0;
+    }
+    .no_scroll_header .main-menu.scroll_heading.has_fixed {
+      background-color: #fff!important;
+    }
+    .no_scroll_header .main-menu.scroll_heading.has_fixed .ybc-menu > .ybc-menu-item > .ybc-menu-item-link, 
+    .no_scroll_header .main-menu.scroll_heading.has_fixed .ybc-menu > .ybc-menu-item > .ybc-menu-item-no-link {
+      color: #000;
+    }
+    
+}
+@media (max-width: 479px){
+    .header_bottom {
+      margin-top: 10px;
+    }
+    .social_header {
+      margin-top: 2px;
+    }
+    .social_header li {
+      float: left;
+    }
+    #box-tesimonial .avatar {
+      border-radius: 50%;
+      display: inline-block;
+      float: none;
+      height: 160px;
+      margin-right: 0;
+      overflow: hidden;
+      width: 160px;
+    }
+    .content-tesimonial {
+      text-align: center;
+    }
+    #box-tesimonial .slider {
+      text-align: center;
+    }
+    #languages-block-top {
+      margin: 2px 0 0;
+    }
+    #currencies-block-top {
+      margin: 0;
+    }
+    .ybc-layout-default .nav {
+      border-bottom: 1px solid #DBDBDB;
+    }
+    
+    #currencies-block-top div.current {
+      line-height: 32px;
+    }
+}
